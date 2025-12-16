@@ -1,0 +1,26 @@
+// Один файл
+
+i112733189:hw_1 tyapkinpetr$ python3 wc.py artifacts/test_file_1.txt
+      6       9     110 artifacts/test_file_1.txt
+
+i112733189:hw_1 tyapkinpetr$ wc artifacts/test_file_1.txt
+       6       9     110 artifacts/test_file_1.txt
+
+// Два файла
+
+i112733189:hw_1 tyapkinpetr$ python3 wc.py artifacts/test_file_1.txt artifacts/test_file_2.txt
+      6       9     110 artifacts/test_file_1.txt
+     12      13     137 artifacts/test_file_2.txt
+     18      22     247 total
+
+i112733189:hw_1 tyapkinpetr$ wc artifacts/test_file_1.txt artifacts/test_file_2.txt
+       6       9     110 artifacts/test_file_1.txt
+      12      13     137 artifacts/test_file_2.txt
+      18      22     247 total
+
+// stdin
+
+i112733189:hw_1 tyapkinpetr$ seq 1 178 | python3 wc.py
+    178     178     604
+i112733189:hw_1 tyapkinpetr$ seq 1 178 | wc
+     178     178     604

@@ -1,0 +1,116 @@
+// 1 файл
+
+i112733189:hw_1 tyapkinpetr$ python3 tail.py artifacts/test_file_2.txt
+
+Пятая строка
+
+qwerty
+
+
+
+asd
+ert
+13 
+
+i112733189:hw_1 tyapkinpetr$ tail -n 10 artifacts/test_file_2.txt
+
+Пятая строка
+
+qwerty
+
+
+
+asd
+ert
+13
+
+// 2 файла
+
+i112733189:hw_1 tyapkinpetr$ python3 tail.py artifacts/test_file_1.txt artifacts/test_file_2.txt
+==> artifacts/test_file_1.txt <==
+Первая строка
+Вторая строка
+Третья строка
+
+Пятая строка
+
+qwerty
+==> artifacts/test_file_2.txt <==
+
+Пятая строка
+
+qwerty
+
+
+
+asd
+ert
+13
+
+112733189:hw_1 tyapkinpetr$ tail -n 10 artifacts/test_file_1.txt artifacts/test_file_2.txt
+==> artifacts/test_file_1.txt <==
+Первая строка
+Вторая строка
+Третья строка
+
+Пятая строка
+
+qwerty
+==> artifacts/test_file_2.txt <==
+
+Пятая строка
+
+qwerty
+
+
+
+asd
+ert
+13
+
+// stdin
+
+i112733189:hw_1 tyapkinpetr$ seq 1 30 | python3 tail.py
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+
+i112733189:hw_1 tyapkinpetr$ seq 1 30 | tail -n 17
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+
+// несуществующий файл
+
+i112733189:hw_1 tyapkinpetr$ python3 tail.py no_such_file.txt
+tail.py: cannot open 'no_such_file.txt' for reading: No such file or directory
+i112733189:hw_1 tyapkinpetr$ tail -n 10 no_such_file.txt
+tail: no_such_file.txt: No such file or directory
