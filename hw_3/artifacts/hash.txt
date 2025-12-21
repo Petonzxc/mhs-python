@@ -1,0 +1,2 @@
+hash(AB) = 6
+hash(CD_hashed) = 6
