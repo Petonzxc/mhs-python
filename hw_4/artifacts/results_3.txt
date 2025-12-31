@@ -1,0 +1,23 @@
+i112733189:hw_4 tyapkinpetr$ python3 message.py 
+Hello 2025!
+[15:21:59] (you) Hello 2025!
+part[15:22:04] uryyb 2025!
+y  
+[15:22:24] (you) party
+[15:22:29] cnegl
+have great time
+[15:22:36] (you) have great time
+[15:22:41] unir terng gvzr
+goodnight
+[15:22:49] (you) goodnight
+qwer
+[15:22:52] (you) qwer
+qwert
+[15:22:53] (you) qwert
+[15:22:54] tbbqavtug
+[15:22:59] djre
+[15:23:04] djreg
+end
+[15:23:06] (you) end
+
+[15:23:11] raq

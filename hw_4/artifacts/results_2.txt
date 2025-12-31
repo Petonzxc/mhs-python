@@ -1,0 +1,45 @@
+CPU count: 10
+
+ThreadPoolExecutor:
+n_jobs=1: 0.5033s
+n_jobs=2: 0.5025s
+n_jobs=3: 0.4949s
+n_jobs=4: 0.4938s
+n_jobs=5: 0.4923s
+n_jobs=6: 0.4972s
+n_jobs=7: 0.5258s
+n_jobs=8: 0.4996s
+n_jobs=9: 0.5348s
+n_jobs=10: 0.5050s
+n_jobs=11: 0.4985s
+n_jobs=12: 0.4926s
+n_jobs=13: 0.4966s
+n_jobs=14: 0.4932s
+n_jobs=15: 0.4960s
+n_jobs=16: 0.4996s
+n_jobs=17: 0.5072s
+n_jobs=18: 0.5374s
+n_jobs=19: 0.5086s
+n_jobs=20: 0.4944s
+
+ProcessPoolExecutor:
+n_jobs=1: 0.6176s
+n_jobs=2: 0.3526s
+n_jobs=3: 0.2281s
+n_jobs=4: 0.2085s
+n_jobs=5: 0.1610s
+n_jobs=6: 0.1570s
+n_jobs=7: 0.1730s
+n_jobs=8: 0.1830s
+n_jobs=9: 0.1763s
+n_jobs=10: 0.1824s
+n_jobs=11: 0.1700s
+n_jobs=12: 0.1747s
+n_jobs=13: 0.1730s
+n_jobs=14: 0.1842s
+n_jobs=15: 0.2209s
+n_jobs=16: 0.2709s
+n_jobs=17: 0.2352s
+n_jobs=18: 0.2142s
+n_jobs=19: 0.2305s
+n_jobs=20: 0.2309s
